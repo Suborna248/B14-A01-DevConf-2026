@@ -459,6 +459,90 @@ hr{
     padding: 10px 6%;
   }
 
+.count-container{
+    width: 70%;
+    height:20vh;
+    background-color: #1E1A4D;
+    margin: 0  16%;
+    border: 1px solid #59168B ;
+    border-radius: 10px;
+    
+    
+
+}
+.all-count-list{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    color:#FFFFFF;
+    margin: 12px 10%;
+    gap:24px;
+   padding: 5% 0;
+     
+    
+    
+} 
+
+.count{
+    display: flex;
+    align-items: center;
+    gap:25px;
+} 
+
+.participant .participant-number{
+    font-size: 32px;
+    font-weight: bold;
+    color: #8B0836;
+}
+ 
+.count .fa-users{
+    font-size: 32px;
+    font-weight: bold;
+    color: #8B0836;
+
+}
+
+.duration-hour  .hours{
+     font-size: 32px;
+    font-weight: bold;
+    color: #497D15;
+
+}  
+
+.total-price .price{
+    font-size: 32px;
+    font-weight: bold;
+    color: #FF00FF;
+
+}
+
+.count   .fa-gift{
+    font-size: 32px;
+    font-weight: bold;
+    color: #FF00FF;
+
+}
+
+.count .fa-stopwatch{
+    font-size: 32px;
+    font-weight: bold;
+    color: #497D15;
+
+}
+
+ .mentor .mentor-number{
+     font-size: 32px;
+    font-weight: bold;
+    color: #F54927;
+
+}
+
+  .count   .fa-star{
+    font-size: 32px;
+    font-weight: bold;
+    color: #F54927;
+
+  }
+
 
   /* footer section style */
   footer{
