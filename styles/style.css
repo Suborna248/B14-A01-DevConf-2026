@@ -26,7 +26,7 @@ nav{
 
 } 
 
-ul li{
+ li{
     list-style:none;
 } 
 
@@ -107,7 +107,7 @@ header{
 .card{
     background-color: #F8FAFC;
     width:100%;
-    height:470px;
+    height:48vh;
     border-radius:20px;
     border:1px solid #E7E5E4;
     
@@ -124,7 +124,7 @@ header{
 
 .card-text{
     display:grid;
-    gap:8px;
+    gap:12px;
     padding:14px 4%;
 } 
 .card-text h3{
@@ -132,11 +132,14 @@ header{
     font-size:14px;
     font-weight:500
 } 
-
+.speaker-name{
+    font-size:20px;
+    font-weight:bold;
+}
 .common-text{
     color:#575757;
     font-size:14px;
-    margin-top:10px;
+    
 } 
 
 /* Secure your spot style */ 
@@ -250,6 +253,214 @@ hr{
     background-color:#0000FF;
   } 
 
+  /*  */
+  .program-head{ 
+    text-align:center;
+    margin:80px 0;
+
+  } 
+
+  .program-head h1{
+    font-size:26px;
+    margin-bottom: 10px;;
+  }
+ 
+
+  .program-subhead{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:22px;
+    margin: 30px 0;;
+  } 
+
+  .program-subhead .fa-trophy{
+    color:#7008E7;
+    
+  } 
+ 
+  .program-subhead  .fa-robot{
+    color:#024A70;
+  } 
+
+ .program-subhead  .fa-users{
+    color:#21BCFF;
+ } 
+
+  .program-subhead .fa-gift{
+    color:#FF8904;
+  } 
+  .program-subhead i{
+    font-size:20px;
+  } 
+
+  .program-subhead  span{
+    font-size:18px;
+    color:#193CB8;
+    font-weight: 600;
+
+  }
+  .programming-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+     margin:50px 15%; 
+    gap:64px;
+    width: 70%;
+    height: 58vh;
+    
+  }
+   .programming-container    .program-name{
+    font-size: 20px;
+    margin: 2% 2px;
+
+   }
+  .programming-container img{
+    width:100%;
+    height: 20vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+ .programming-container ,.fa-clock ,.fa-users ,.fa-chart-simple{
+    color:#193CB8;
+    margin-right: 8px;;
+ }
+
+ .price-pool-2 .fa-trophy{
+    color:#1DA1F2;
+ }
+ .price-pool-3 .fa-trophy{
+    color:#C81CDE;
+ } 
+
+  .programming-container    .program-short-note{
+    margin: 4% 0;;
+  }
+
+  .list{
+    display:flex; 
+    gap:8px;
+  } 
+   
+   .list li{
+     list-style:circle;
+     margin:5px;
+     color: #0000FF;
+  } 
+   .time{
+    display:flex;
+    align-items: center;
+    gap:44px;
+    
+   }
+   .member{ 
+    display:flex;
+    align-items: center;
+    gap:38px;
+    margin: 8px 0;;
+
+   }
+  .nature{
+    display:flex;
+    align-items: center;
+    gap:42px;
+  } 
+
+  .price-pool-1{ 
+     display:flex;
+     justify-content: space-between;
+    background-color: #7008E7;
+    align-items: center;
+    width:85%;
+    height:4vh;
+    margin: 14px 1%; 
+    padding:6px 5%; 
+    border: 1px solid #7008E7;
+    border-radius: 14px;
+    color:#EFF6FF
+   
+   
+  }
+  .price-pool-2{ 
+     display:flex;
+     justify-content: space-between;
+    background-color: #372AAC;
+    align-items: center;
+    width:85%;
+    height:4vh;
+    margin: 14px 1%; 
+    padding:6px 5%; 
+    border: 1px solid #193CB8;
+    border-radius: 14px;
+    color:#EFF6FF
+   
+   
+  }
+  .price-pool-3{ 
+     display:flex;
+     justify-content: space-between;
+    background-color: #59168B;
+    align-items: center;
+    width:85%;
+    height:4vh;
+    margin: 14px 1%; 
+    padding:6px 5%; 
+    border: 1px solid #7008E7;
+    border-radius: 14px;
+    color:#EFF6FF
+   
+   
+  }
+
+  .programming-container  button{
+    width: 55%;
+    padding: 12px 2%;
+    background-color: #2F0D68;
+    border: 2px solid 	#800080 ;
+    border-radius: 5px;
+    color: #FFFFFF;
+    box-shadow: 0 0 0 3px rgba(128, 0, 128, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px; 
+    font-size: 15px;
+    margin-left: 24%;
+    margin-top: 18px;
+
+  }
+
+  .program-card-1{
+    background-color:#8E51FF ;
+    width: 100%;
+     border: 2px solid 	#800080 ;
+    border-radius: 5px;
+    color: #FFFFFF;
+    box-shadow: 0 0 0 3px rgba(128, 0, 128, 0.3);
+    padding: 10px 6%;
+  }
+  .program-card-2{
+    background-color:#2B7FFF;
+    width: 100%;
+     border: 2px solid 	#800080 ;
+    border-radius: 5px;
+    color: #FFFFFF;
+    box-shadow: 0 0 0 3px rgba(128, 0, 128, 0.3);
+    padding: 10px 6%;
+  }
+  .program-card-3{
+    background-color:#C81CDE ;
+    width: 100%;
+     border: 2px solid 	#800080 ;
+    border-radius: 5px;
+    color: #FFFFFF;
+    box-shadow: 0 0 0 3px rgba(128, 0, 128, 0.3);
+    padding: 10px 6%;
+  }
+
+
+  /* footer section style */
   footer{
   
     margin:0 auto; 
@@ -292,4 +503,6 @@ hr{
   .footer-social  .fa-linkedin{ 
     color:#E4405F;
 
-  }
+  } 
+
+  
