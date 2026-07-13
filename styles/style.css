@@ -32,6 +32,8 @@ nav{
 
 ul li a{
     text-decoration:none;
+    font-size:16px;
+    color:#575757;
 } 
 
 .nav-menu{
@@ -75,12 +77,13 @@ header {
 .banner-content p{
     font-size:22px;
     padding:8px 27%;
+    margin-top: 16px;
 
 }
 
 .banner-content button{
     width:20%;
-    margin-top:18%;
+    margin-top:16%;
     padding:18px 0; 
     background-color:#0000FF;
     border:none;
